@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'practicalblagger'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_005d154a7bd941168c41ae88b413ac1d }}
+        publish-profile: ${{ secrets.PRACTICALBLAGGER_PROFILE }}
         package: ${{env.DOTNET_ROOT}}/myapp 
